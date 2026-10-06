@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# Test / tooling caches
+.pytest_cache/
+
+# Local database
+*.db
+
+# Generated certificates (keep the folder, ignore its contents)
+generated/*
+!generated/.gitkeep
